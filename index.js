@@ -11,7 +11,7 @@ let progress = completedTasks / totalTasks;
 console.log("User:", userName);
 console.log("Progress:", progress);
 
-//Stringing Characters Together
+// Stringing Characters Together
 // Create a message for the user
 const message = "Hey " + userName + ", let's stay on track today!";
 console.log(message);
@@ -24,7 +24,6 @@ if (progress === 1) {
     console.log("You're making progress. Keep going!");
 } else {
     console.log("You've got some work to do. Stay focused.");
-
 }
 
 // Building Arrays
@@ -33,15 +32,14 @@ const tasks = ["Pray", "Journal", "Study JavaScript", "Drink water", "Plan tomor
 console.log(tasks);
 
 // Using Arrays
-// Access and update tasks
+// Access the first task and use push() to add another task
 console.log("First task:", tasks[0]);
 
 tasks.push("Review goals");
 console.log("Updated tasks:", tasks);
 
-
 // Working With Loops
 // Loop through tasks and show each one
 for (const task of tasks) {
-  console.log("Task:", task);
+    console.log("Task:", task);
 }
